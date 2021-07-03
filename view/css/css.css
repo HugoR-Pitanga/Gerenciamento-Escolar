@@ -1,0 +1,36 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    display: inline;
+}
+
+li a{
+    padding: 5px 10px;
+    margin: 0;
+    border: 0px solid  #f00;
+    background: cyan;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background: #ccc;
+    color: #000;
+    border-color: #000;
+}
+
+.botao-excluir, .botao-editar {
+    width: 20px;
+
+}
