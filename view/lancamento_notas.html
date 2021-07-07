@@ -10,19 +10,30 @@
     <head>
         
     <body>
+    <div class="container">
+
         <h2>Laçamento de Notas</h2>
         <div class="input-group">
             <span class="input-group-addon">
                 Id do Aluno
             </span>
-            <input type="text" id="idAluno" class="form-control"/>
+            <select id="idAluno" class="form-control">
+                
+            </select>
         </div>
 
         <div class="input-group">
             <span class="input-group-addon">
                 Materia
             </span>
-            <input type="text" id="materia" class="form-control"/>
+            <select id="materia" class="form-control">
+                <option>Portugues</option>
+                <option>Matematica</option>
+                <option>Fisica</option>
+                <option>Historia</option>
+                <option>Quimica</option>
+                <option>Educacao Fisica</option>
+            </select>
         </div>
 
         <div class="input-group">
@@ -32,9 +43,10 @@
             <input type="number" id="nota" class="form-control"/>
         </div>
            
-            <button id="lancar_nota" class="btn btn-primary">Lançar Nota</button>
+            <button id="lancar_nota" class="btn btn-primary" style="padding-top: 20px;">Lançar Nota</button>
 
         <a href = "index.html">Voltar</a>
+    </div>
     </body>
 
 </html>

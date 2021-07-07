@@ -19,9 +19,11 @@ function excluirAluno(id){
         type: 'DELETE',
         success: function(data, textStatus, jqXHR){
         alert("sucesso");
+        consultar();
         },
         error: function(XMLHttpRequest, textStatus, errorThrown){
-        alert('erro')
+        alert('sucesso');
+        consultar();
         }
         }); 
 }
@@ -44,6 +46,8 @@ function consultar(){
     }
     });
 }
+
+
 $(document).ready(function(){
     $("#cadastrar_aluno").click(function(){
         nome = $("#nome").val();
